@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-text {
+  display: flex;
+}
+
+body {
+  background-color: rgb(98, 0, 255);
+}
+
+.card {
+  background-color: rgb(74, 235, 59);
+  color: aliceblue;
+}
+
+.episode-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: blue;
+}
+
+.episode-list li {
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.episode-list li:last-child {
+  border-bottom: none;
+}
+
+.main-image {
+  width: 27rem;
+}
